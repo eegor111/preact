@@ -14,7 +14,14 @@ import {useEffect, useState} from "react";
 
 function Layout({ children }) {
     return (
-        <div className="flex flex-col min-h-screen">
+        <div className="
+        flex flex-col 
+        min-h-screen 
+        bg-[url('./public/2.jpg')] 
+        bg-fixed 
+        bg-cover 
+        bg-center
+        ">
             <Header />
                 <main className="flex-grow">
                     {children}
