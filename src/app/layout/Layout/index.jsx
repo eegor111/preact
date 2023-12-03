@@ -6,11 +6,6 @@ import Gallery from '@app/pages/Gallery';
 import Order from '@app/pages/Order';
 import About from '@app/pages/About';
 
-/*
-import {Route, Routes, useLocation} from 'react-router-dom';
-import {Header, Footer, Sidebar, routesConfig} from "@app/layout";
-import {useEffect, useState} from "react";
-*/
 
 function Layout({ children }) {
     return (
